@@ -14,13 +14,17 @@ BairesTour is a personal web project showcasing Buenos Aires, Argentina, its lan
 
 Check out the live site here: [BairesTour on Vercel](https://baires-tour-web.vercel.app)
 
-## Sample Images
+## Images
 
-Here are some sample images from the project:
+Here are some images from the project:
 
-| ![Sample 1](imagenes_muestra/img_muestra1.jpg) | ![Sample 2](imagenes_muestra/img_muestra2.jpg) | ![Sample 3](imagenes_muestra/img_muestra3.jpg) |
-|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|
-| ![Sample 4](imagenes_muestra/img_muestra4.jpg) | ![Sample 5](imagenes_muestra/img_muestra5.jpg) | ![Sample 6](imagenes_muestra/img_muestra6.jpg) |
+![Imagen 1](imagenes_muestra/img_muestra1.jpg)  
+![Imagen 2](imagenes_muestra/img_muestra2.jpg)  
+![Imagen 3](imagenes_muestra/img_muestra3.jpg)  
+![Imagen 4](imagenes_muestra/img_muestra4.jpg)  
+![Imagen 5](imagenes_muestra/img_muestra5.jpg)  
+![Imagen 6](imagenes_muestra/img_muestra6.jpg)  
+
 
 
 
