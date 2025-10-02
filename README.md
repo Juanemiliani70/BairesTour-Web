@@ -18,11 +18,11 @@ Check out the live site here: [BairesTour on Vercel](https://baires-tour-web.ver
 
 Here are some images from the project:
 
-![Imagen 1](imagenes_muestra/img_muestra1.jpg)  
-![Imagen 2](imagenes_muestra/img_muestra2.jpg)  
-![Imagen 3](imagenes_muestra/img_muestra3.jpg)  
-![Imagen 4](imagenes_muestra/img_muestra4.jpg)  
-![Imagen 5](imagenes_muestra/img_muestra5.jpg)  
+![Imagen 1](imagenes_muestra/img_muestra1.png)  
+![Imagen 2](imagenes_muestra/img_muestra2.png)  
+![Imagen 3](imagenes_muestra/img_muestra3.png)  
+![Imagen 4](imagenes_muestra/img_muestra4.png)  
+![Imagen 5](imagenes_muestra/img_muestra5.png)  
 ![Imagen 6](imagenes_muestra/img_muestra6.jpg)  
 
 
