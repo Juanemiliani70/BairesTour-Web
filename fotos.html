@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fotos - BairesTour</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Menú -->
+  <nav>
+    <h1>BairesTour</h1>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="fotos.html" class="active">Fotos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Galería -->
+  <section class="gallery">
+    <h2>Galería de Fotos</h2>
+    <div class="gallery-container">
+      <img src="img/img_galeria/img1.jpg" alt="imagen 1">
+      <img src="img/img_galeria/img2.jpg" alt="imagen 2">
+      <img src="img/img_galeria/img3.jpg" alt="imagen 3">
+      <img src="img/img_galeria/img4.jpg" alt="imagen 4">
+      <img src="img/img_galeria/img5.jpg" alt="imagen 5">
+      <img src="img/img_galeria/img6.jpg" alt="imagen 6">
+      <img src="img/img_galeria/img7.jpg" alt="imagen 7">
+      <img src="img/img_galeria/img8.jpg" alt="imagen 8">
+    </div>
+
+    <div class="ver-mas">
+      <button id="btn-ver-mas" class="btn-ver-mas">Ver más fotos</button>
+    </div>
+  </section>
+
+   <!-- Footer -->
+  <footer>
+  <div class="footer-section">
+    <h4>Acerca de</h4>
+    <p>Esta página fue creada para mostrar la belleza, la historia y la cultura de Buenos Aires, compartiendo sus lugares más icónicos.</p>
+  </div>
+
+  <div class="footer-section">
+    <h4>Contacto</h4>
+    <ul>
+      <li><a href="https://mail.google.com/mail/?view=cm&to=juanmemiliani@gmail.com" target="_blank">Email: juanmemiliani@gmail.com</a></li>
+      <li><a href="https://wa.me/541136842559" target="_blank">WhatsApp: +54 11 3684 2559</a></li>
+      <li>Ubicación: Buenos Aires, Argentina</li>
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 BairesTour - Todos los derechos reservados
+  </div>
+</footer>
+
+  <!-- Script para cambiar fotos -->
+  <script>
+    const fotosExtra = [
+      "img/img_galeria/img9.jpg",
+      "img/img_galeria/img10.jpg",
+      "img/img_galeria/img11.jpg",
+      "img/img_galeria/img12.jpg",
+      "img/img_galeria/img13.jpg",
+      "img/img_galeria/img14.jpg",
+      "img/img_galeria/img15.jpg",
+      "img/img_galeria/img16.jpg"
+    ];
+
+    const btn = document.getElementById('btn-ver-mas');
+    const imagenes = document.querySelectorAll('.gallery-container img');
+    let mostrandoPrimeraTanda = true;
+
+    btn.addEventListener('click', () => {
+      const fotosActuales = mostrandoPrimeraTanda ? fotosExtra : [
+        "img/img_galeria/img1.jpg",
+        "img/img_galeria/img2.jpg",
+        "img/img_galeria/img3.jpg",
+        "img/img_galeria/img4.jpg",
+        "img/img_galeria/img5.jpg",
+        "img/img_galeria/img6.jpg",
+        "img/img_galeria/img7.jpg",
+        "img/img_galeria/img8.jpg"
+      ];
+
+      imagenes.forEach((img, i) => {
+        img.classList.add("fade-out");
+        setTimeout(() => {
+          img.src = fotosActuales[i];
+          img.classList.remove("fade-out");
+          img.classList.add("fade-in");
+        }, 300);
+      });
+
+      btn.textContent = mostrandoPrimeraTanda ? "Ver fotos anteriores" : "Ver más fotos";
+      mostrandoPrimeraTanda = !mostrandoPrimeraTanda;
+    });
+  </script>
+
+</body>
+</html>

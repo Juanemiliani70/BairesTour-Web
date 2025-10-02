@@ -3,97 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Sitio Web</title>
+  <title>BairesTour</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- Menú -->
   <nav>
-    <h1>Mi Sitio</h1>
+    <h1>BairesTour</h1>
     <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Mis viajes</a></li>
-      <li><a href="#">Fotos</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="index.html" class="active">Inicio</a></li>
+      <li><a href="fotos.html">Fotos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
     </ul>
   </nav>
 
-  <!-- Imagen principal -->
   <div class="hero">
-    <h2>Bienvenido a Mi Sitio Web</h2>
-  </div>
+  <video autoplay muted loop class="video-background">
+    <source src="videoPortada.mp4" type="video/mp4">
+    Tu navegador no soporta HTML5 video.
+  </video>
+  <h2>Un viaje a la ciudad más linda del mundo</h2>
+</div>
+
 
   <!-- Sección de tarjetas -->
   <section class="cards">
     <div class="card">
-      <img src="img/avion.jpg" alt="Imagen 1" />
+      <img src="img/Img_cards/obelisco.jpg" alt="Imagen 1" />
       <div class="card-content">
-        <h3>Mis viajes</h3>
-        <p>Soy una persona que ama viajar, en cualquier momento del año. Conectar con la naturaleza y conocer nuevos sitios es algo que me gusta mucho</p>
+        <h3>El obelisco</h3>
+        <p>El Obelisco de Buenos Aires, ícono de la ciudad desde 1936, se levanta en el corazón porteño como testigo de su historia y cultura.</p>
       </div>
     </div>
 
     <div class="card">
-      <img src="img/comida.jpg" alt="Imagen 2" />
+      <img src="img/Img_cards/caminito.jpg" alt="Imagen 2" />
       <div class="card-content">
-        <h3>Comidas preferidas</h3>
-        <p>Soy un amante de la comida. si bien me gusta todo tipo de comida en general me quedo con las milanesas a la napolitana</p>
+        <h3>Caminito</h3>
+        <p>Caminito, el colorido pasaje de La Boca, donde la historia, el arte y el tango se encuentran en cada esquina</p>
       </div>
     </div>
 
     <div class="card">
-      <img src="img/pelota.jpg" alt="Imagen 3" />
+      <img src="img/Img_cards/floralis.jpg" alt="Imagen 3" />
       <div class="card-content">
-        <h3>Mi pasion por el deporte</h3>
-        <p>El deporte es uno de mis pasatiempos mas preciados. suelo salir a correr bastante frecuente y jugar al tenis</p>
+        <h3>La Floralis Generica</h3>
+        <p>La Floralis Genérica, la flor de metal que se abre al sol y se cierra al caer la noche en Palermo.</p>
       </div>
     </div>
   </section>
 
   <section class="aside-container">
     <aside class="aside-box">
-      <h3>Frase favorita</h3>
-      <p>"La vida es un viaje, no un destino."</p>
+      <h3>Tip de viaje</h3>
+      <p>tomá un café en una esquina tranquila de San Telmo y dejate llevar por la música del barrio, como un local más."</p>
     </aside>
   
     <aside class="aside-box">
       <h3>Dato curioso</h3>
-      <p>¿Sabías que el lugar más visitado del mundo es la Torre Eiffel? Más de 7 millones de personas la visitan cada año.</p>
+      <p>En Buenos Aires hay más librerías por habitante que en cualquier otra ciudad del mundo.</p>
     </aside>
   </section>
-  
-  
 
   <!-- Footer -->
   <footer>
-    <div class="footer-section">
-      <h4>Acerca de</h4>
-      <p>Este sitio fue creado para el parcial 1 de la materia Aplicaciones web. Incluye todos los elementos básicos de una página web.</p>
-    </div>
+  <div class="footer-section">
+    <h4>Acerca de</h4>
+    <p>Esta página fue creada para mostrar la belleza, la historia y la cultura de Buenos Aires, compartiendo sus lugares más icónicos.</p>
+  </div>
 
-    <div class="footer-section">
-      <h4>Enlaces</h4>
-      <ul>
-        <li><a href="#">Política de Privacidad</a></li>
-        <li><a href="#">Términos de Uso</a></li>
-        <li><a href="#">Soporte</a></li>
-      </ul>
-    </div>
+  <div class="footer-section">
+    <h4>Contacto</h4>
+    <ul>
+      <li><a href="https://mail.google.com/mail/?view=cm&to=juanmemiliani@gmail.com" target="_blank">Email: juanmemiliani@gmail.com</a></li>
+      <li><a href="https://wa.me/541136842559" target="_blank">WhatsApp: +54 11 3684 2559</a></li>
+      <li>Ubicación: Buenos Aires, Argentina</li>
+    </ul>
+  </div>
 
-    <div class="footer-section">
-      <h4>Contacto</h4>
-      <ul>
-        <li><a href="#">Email: juanmaemiliani_97@hotmail.com</a></li>
-        <li><a href="#">Tel: 9898989898</a></li>
-        <li><a href="#">Ubicación: Buenos Aires, Argentina</a></li>
-      </ul>
-    </div>
+  <div class="footer-bottom">
+    &copy; 2025 BairesTour - Todos los derechos reservados
+  </div>
+</footer>
 
-    <div class="footer-bottom">
-      &copy; 2025 Mi Sitio Web - Todos los derechos reservados
-    </div>
-  </footer>
-
-</body>
-</html>

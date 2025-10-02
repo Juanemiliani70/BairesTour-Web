@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - BairesTour</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Menú -->
+  <nav>
+    <h1>BairesTour</h1>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="fotos.html">Fotos</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Formulario -->
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <p>Dejame tu mensaje y contame quien sos</p>
+
+    <form action="mailto:juanmemiliani@gmail.com" method="post" enctype="text/plain" class="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit" class="btn-ver-mas">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  <div class="footer-section">
+    <h4>Acerca de</h4>
+    <p>Esta página fue creada para mostrar la belleza, la historia y la cultura de Buenos Aires, compartiendo sus lugares más icónicos.</p>
+  </div>
+
+  <div class="footer-section">
+    <h4>Contacto</h4>
+    <ul>
+      <li><a href="https://mail.google.com/mail/?view=cm&to=juanmemiliani@gmail.com" target="_blank">Email: juanmemiliani@gmail.com</a></li>
+      <li><a href="https://wa.me/541136842559" target="_blank">WhatsApp: +54 11 3684 2559</a></li>
+      <li>Ubicación: Buenos Aires, Argentina</li>
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 BairesTour - Todos los derechos reservados
+  </div>
+</footer>
+
+</body>
+</html>
